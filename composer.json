@@ -1,5 +1,5 @@
 {
-  "name": "icorebiz/ModuleName",
+  "name": "icorebiz/module-name",
   "description": "Laravel package",
   "authors": [
     {
@@ -18,13 +18,13 @@
   ],
   "autoload": {
     "psr-4": {
-      "Icorebiz\\ModuleName\\": "src/"
+      "Icorebiz\\module-name\\": "src/"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "Icorebiz\\ModuleName\\ServiceProvider"
+        "Icorebiz\\module-name\\ServiceProvider"
       ]
     }
   },
