@@ -12,7 +12,7 @@
   },
   "repositories": [
     {
-      "type" : "vcs",
+      "type": "vcs",
       "url": "https://K3pler@bitbucket.org/icorebiz/base.git"
     }
   ],
@@ -27,8 +27,5 @@
         "Icorebiz\\module-name\\ServiceProvider"
       ]
     }
-  },
-  "config": {
-    "secure-http": false
   }
 }
