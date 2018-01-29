@@ -8,9 +8,13 @@
     }
   ],
   "require": {
-    "icorebiz/base": "1.0.*"
+    "icorebiz/base": "dev-develop"
   },
   "repositories": [
+    {
+      "type" : "vcs",
+      "url": "https://K3pler@bitbucket.org/icorebiz/base.git"
+    }
   ],
   "autoload": {
     "psr-4": {
@@ -23,5 +27,8 @@
         "Icorebiz\\ModuleName\\ServiceProvider"
       ]
     }
+  },
+  "config": {
+    "secure-http": false
   }
 }
