@@ -1,0 +1,27 @@
+{
+  "name": "icorebiz/ModuleName",
+  "description": "Laravel package",
+  "authors": [
+    {
+      "name": "developer_name",
+      "email": "developer_email"
+    }
+  ],
+  "require": {
+    "icorebiz/base": "1.0.*"
+  },
+  "repositories": [
+  ],
+  "autoload": {
+    "psr-4": {
+      "Icorebiz\\ModuleName\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Icorebiz\\ModuleName\\ServiceProvider"
+      ]
+    }
+  }
+}
