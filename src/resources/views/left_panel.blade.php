@@ -1,0 +1,2 @@
+@push('left-panel')
+@endpush
